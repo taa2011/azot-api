@@ -1,0 +1,24 @@
+{
+  "name": "azot-api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./src/server/index.js",
+    "test": "node ./node_modules/mocha/bin/_mocha"
+  },
+  "keywords": [],
+  "author": "alex t",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "4.1.1",
+    "chai-http": "^3.0.0",
+    "mocha": "3.5.0"
+  },
+  "dependencies": {
+    "knex": "^0.13.0",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.1",
+    "mysql": "^2.15.0"
+  }
+}
